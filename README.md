@@ -1,8 +1,8 @@
-# Thesis README
+# README
 
 ## Overview
 
-This repository contains the necessary files and folders for organizing your thesis. The main file, `Thesis.tex`, serves as the central document and contains all the components of your thesis. To ensure proper organization, follow the guidelines below for placing different types of content.
+This repository contains the necessary files and folders for organizing your thesis at COMSATS University Islamabad. The main file, `Thesis.tex`, serves as the central document and contains all the components of your thesis. To ensure proper organization, follow the guidelines below for placing different types of content.
 
 ## File Structure
 
@@ -14,7 +14,7 @@ The repository is structured as follows:
 
 - **references folder**: Store your BibTeX files in this folder. Make sure to keep your references up-to-date and cite them appropriately in your `Thesis.tex` file.
 
-- **extras folder**: Store any additional configuration files or custom styles you might need in this folder. These files should be included from the `Thesis.tex` file using relative paths.
+- **extras folder**: Store any additional configuration files or custom styles you might need in this folder. These files should be included in the `Thesis.tex` file using relative paths.
 
 - **chapters folder**: Organize your thesis content chapter-wise in this folder. Each chapter should be defined in its separate `.tex` file. For example, you could have `chapters/introduction.tex`, `chapters/literature_review.tex`, `chapters/methodology.tex`, etc. Remember to include these chapter files in the `Thesis.tex` file using `\input` or `\include` commands.
 
@@ -40,6 +40,6 @@ To compile your thesis, follow these steps:
 
 - Make sure to check for any packages or custom commands used in the `Thesis.tex` file and ensure they are available in your LaTeX distribution.
 
-- For any questions or issues related to the organization or compilation of the thesis, feel free to reach out to the repository maintainers.
+- If you have any questions or issues related to the organization or compilation of the thesis, feel free to contact the repository maintainers.
 
 Good luck with your thesis writing!
