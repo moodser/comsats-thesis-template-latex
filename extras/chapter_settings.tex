@@ -1,0 +1,37 @@
+%-------------Added for chapter on seperate page
+
+
+\titleformat{\chapter}[display]% command + shape
+{%
+	\normalfont
+	\Large
+	\filcenter
+	%	\sffamily
+} % format
+{%
+	\vspace*{\fill}
+	\titlerule[0pt]%
+	\vspace{0pt}%
+	%\titlerule
+	\vspace{0pc}%
+	\Large \textbf{ \MakeUppercase{\chaptertitlename}~\thechapter}%
+}% label
+{
+	1pc
+}% separation
+{
+	%\titlerule
+	\Large
+	\textbf
+} % before
+[%
+\vspace*{\fill}
+%\thispagestyle{empty}
+\clearpage
+%\addtocounter{page}{-1}
+]% after
+
+% End chapter code
+
+
+

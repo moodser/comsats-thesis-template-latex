@@ -1,0 +1,82 @@
+\usepackage{amsmath} %Never write a paper without using amsmath for its many new commands
+\usepackage{amssymb} %Some extra symbols
+\usepackage{makeidx} %If you want to generate an index, automatically
+\usepackage{graphicx} %If you want to include postscript graphics
+\usepackage{amsfonts}
+\usepackage{newlfont}
+\PassOptionsToPackage{table,xcdraw}{xcolor}
+\usepackage[table, dvipsnames]{xcolor}
+\usepackage{ragged2e}
+\usepackage{psfrag}
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage{epstopdf}
+
+\usepackage{titlesec}
+\usepackage{lipsum}
+
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{tabularx}
+
+\usepackage{setspace}
+
+\usepackage[scale=0.74,top=3cm, left=3.3cm]{geometry}
+
+\makeindex
+
+
+
+\newtheorem{definition}{Definition}[section]
+\newtheorem{proposition}[definition]{Proposition}
+\newtheorem{lemma}[definition]{Lemma}
+\newtheorem{theorem}[definition]{Theorem}
+\newtheorem{corollary}[definition]{Corollary}
+\newtheorem{remark}[definition]{Remark}
+\newtheorem{observation}[definition]{Observation}
+
+\newcommand{\Buchi}{B$\buildrel {..}\over{\rm u}$chi }
+\newcommand{\EhFr}{Ehrenfeucht-Fra\"{\i}ss\'{e} }
+\newcommand{\Boj}{Boja\'{n}czyk}
+\newcommand{\TLEFs} {$\sf{TL[EF_s]}\mbox{ }$}
+\newcommand{\TLEF} {$\sf{TL[EF]}\mbox{ }$}
+
+\newcommand{\qed}{\hfill $\Box$ \hfill \\}
+
+\renewcommand{\labelenumi}{(\roman{enumi})}
+
+%\renewcommand{\baselinestretch}{1.66}
+
+
+
+\usepackage{arabtex,lipsum}
+
+%%% from Uxnsh.fd
+\DeclareFontFamily{U}{xnsh}{}%
+
+\DeclareFontShape{U}{xnsh}{m}{n}{%                                   
+	<-6> sfixed * [6.0] xnsh14
+	<6-10> s * [1.20] xnsh14
+	<10><10.95><12><14.4><17.28><20.74><24.88> s * [1.20] xnsh14
+}{}
+
+\DeclareFontShape{U}{xnsh}{bx}{n}{%
+	<-6> sfixed * [6.0] xnsh14bf
+	<6-10> s * [1.20] xnsh14bf
+	<10><10.95><12><14.4><17.28><20.74><24.88> s * [1.20] xnsh14bf
+}{}
+%%% end of added code
+
+\usepackage{utf8}
+\setcode{utf8}
+
+
+\renewcommand{\baselinestretch}{1} % line for space in paragraphs
+
+\newcommand\tab[1][0.5cm]{\hspace*{#1}}
+
+
+\usepackage[hidelinks]{hyperref}
+
+
+
